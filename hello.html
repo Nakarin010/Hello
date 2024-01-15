@@ -9,6 +9,10 @@
         </style>
     </head>
     <body>
+<!-- 
+        <iframe width="999" height="980" src="https://www.youtube.com/embed/wRN03cExSOY?si=WnPNICCB2Y7ohaMe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+        <iframe width="560" height="555" src="https://www.youtube.com/embed/ERdgv6yfDew?si=2R6uZ5EYIKUAq65d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    -->
 
         <h1 >Welcome to the website</h1>
 
@@ -30,16 +34,24 @@
             <label for="Student ID">Student ID: </label>
             <input type="text" name="stid" id="stid"><br>
             <label for="Section: ">Section</label>
-            <input type="radio" name="one" id="one" value="1">Sec 1
+            <input type="radio" name="sec" id="one" value="1">Sec 1
             &nbsp;
-            <input type="radio" name="two" id="two" value="2">Sec 2
+            <input type="radio" name="sec" id="two" value="2">Sec 2
             &nbsp;
-            <input type="radio" name="three" id="three" value="3">Sec 3
+            <input type="radio" name="sec" id="three" value="3">Sec 3
             <br>
             <label for="QQ">Are you happy ?</label>
             <input type="radio" name="on" id="on" >No
-            <input type="radio" name="Ye" id="Ye" >Yes
+            <input type="radio" name="on" id="Ye" >Yes
 
+
+            &nbsp;
+            <br>
+            
+            <input type="checkbox" name="food" value="SW">Sandwich<br> 
+            <input type="checkbox" name="food" value="FC">Fried Chicken<br> 
+            <input type="checkbox" name="food" value="HB">Hamburger<br>
+            &nbsp;
 
             <br>
             <label for="qt">phone: </label>
@@ -47,15 +59,39 @@
              
             <button type="submit">Submit</button>
             <br>
+            
+            <label for="t">What is your birthday?</label>
+            <input type="date" name="bd_d" max="2010-01-01">
+
+                <br>
+                &nbsp;
+                <label for="address" >Addres</label><br>
+                <textarea rows="3" cols="20">Input your Thai Address here</textarea>
+
+                &nbsp;
+
+                <select name="majors"><br>
+                    &nbsp;
+                    <option value="CS">Comp.Sci.</option>
+                    <option value="CE">Comp.Eng.</option>
+                    <option value="IS">Info.Sci.</option>
+                    <option value="IT">Info.Tech.</option> 
+                    </select
+                    &nbsp;
+
             <!-- <label for="qt">phone: </label>
     <input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
     <button type="submit">Submit</button> -->
         </form>
-        
 
+        <form action="https://github.com/openai/openai-cookbook" method="GET">
+            First name:<input type="text" name="fistname"><br>
+            Last name:<input type="text" name="lastname"><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button> </form>
+            
 
-
-
+            
 
     </body>
 </html>
