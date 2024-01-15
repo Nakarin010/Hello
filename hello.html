@@ -8,7 +8,7 @@
             }
         </style>
     </head>
-    <body>
+    <bod>
 <!-- 
         <iframe width="999" height="980" src="https://www.youtube.com/embed/wRN03cExSOY?si=WnPNICCB2Y7ohaMe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
@@ -47,7 +47,7 @@
 
             &nbsp;
             <br>
-            
+
             <input type="checkbox" name="food" value="SW">Sandwich<br> 
             <input type="checkbox" name="food" value="FC">Fried Chicken<br> 
             <input type="checkbox" name="food" value="HB">Hamburger<br>
@@ -56,12 +56,27 @@
             <br>
             <label for="qt">phone: </label>
             <input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-             
+            
             <button type="submit">Submit</button>
             <br>
             
             <label for="t">What is your birthday?</label>
             <input type="date" name="bd_d" max="2010-01-01">
+            
+            <!-- make it to take email as input and to check that it is proper format of email or not-->
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Submit">
+            
+            <br>
+            <br>
+            &nbsp;
+            <label for="email">Email:</label><br>
+            <input type="email" name="userEmail" required placeholder="Enter your email address"> 
+            <button type="submit">Submit</button>
+
+
 
                 <br>
                 &nbsp;
@@ -69,27 +84,33 @@
                 <textarea rows="3" cols="20">Input your Thai Address here</textarea>
 
                 &nbsp;
+                <br>
 
                 <select name="majors"><br>
+                    &nbsp;
+                    <br>
                     &nbsp;
                     <option value="CS">Comp.Sci.</option>
                     <option value="CE">Comp.Eng.</option>
                     <option value="IS">Info.Sci.</option>
                     <option value="IT">Info.Tech.</option> 
                     </select
-                    &nbsp;
-
-            <!-- <label for="qt">phone: </label>
-    <input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-    <button type="submit">Submit</button> -->
-        </form>
-
-        <form action="https://github.com/openai/openai-cookbook" method="GET">
+                    
+           
+        
+            </form> 
+<br>
+        <form action=" " method="GET">
             First name:<input type="text" name="fistname"><br>
             Last name:<input type="text" name="lastname"><br>
             <button type="submit">Submit</button>
             <button type="reset">Clear</button> </form>
-            
+
+
+
+                <label for="qt">phone: </label>
+            <input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <button type="submit">Submit</button>
 
             
 
